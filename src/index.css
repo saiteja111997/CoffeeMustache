@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+.home-container {
+  background: #fffbf0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.navbar-container {
+  border-radius: 999px;
+  background: #ffeed8;
+  box-shadow: 0px 0px 0px 5px #fff;
+  padding: 24px 54px 24px 24px;
+}
+
+.powered-by-gradient {
+  background: var(
+    --Animation-layer-2,
+    linear-gradient(
+      180deg,
+      #c67c4e 0%,
+      #925873 30.04%,
+      #ac6a61 41.44%,
+      #9c57fe 74.62%,
+      #5d3498 95%
+    )
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
