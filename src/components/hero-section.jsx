@@ -27,9 +27,15 @@ const HeroSection = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setImages((prev) => prev.map((i) => (i + 1) % 5));
-      setTitleIndex((prev) => (prev + 1) % TITLES.length);
     }, 2000);
-    return () => clearInterval(intervalId);
+
+    const intervalId2 = setInterval(() => {
+      setTitleIndex((prev) => (prev + 1) % TITLES.length);
+    }, 1000);
+    return () => {
+      clearInterval(intervalId);
+      clearInterval(intervalId2);
+    };
   }, []);
 
   return (

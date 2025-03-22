@@ -43,7 +43,7 @@ const features = [
 export const Features = () => {
   return (
     <div
-      className="text-white pt-32 px-4 pb-48 mx-auto relative overflow-hidden"
+      className="text-white pt-32 px-4 pb-48 mx-auto relative overflow-hidden md:overflow-visible"
       id="features"
     >
       <img
@@ -54,9 +54,9 @@ export const Features = () => {
       <img
         src="/coffee-2.svg"
         alt=""
-        className="absolute -right-16 -bottom-14 z-10 w-64 opacity-90"
+        className="absolute -right-16 md:-right-24 -bottom-14 z-10 w-64 opacity-90"
       />
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-2">
         {/* Header Section */}
         <div className="text-center mb-16">
           <h1 className="text-2xl md:text-5xl font-bold mb-6">

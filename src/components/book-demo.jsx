@@ -11,7 +11,7 @@ export const BookDemo = () => {
 
   return (
     <div
-      className="w-screen bg-gray-900 py-20 -ml-24"
+      className="w-screen bg-gray-900 py-20 px-6 md:px-0 md:-ml-24"
       style={{
         backgroundImage: "url('/book-demo-bg.jpeg')",
         backgroundSize: "cover",
@@ -21,12 +21,12 @@ export const BookDemo = () => {
       id="contact"
     >
       <div className="max-w-2xl flex flex-col items-center mx-auto">
-        <h1 className="text-5xl font-semibold text-white mb-7 w-full">
+        <h1 className="text-3xl md:text-5xl font-semibold text-white mb-7 w-full">
           Book Your Demo
         </h1>
 
         <div>
-          <p className="text-xl text-gray-200 mb-15">
+          <p className="text-base md:text-xl text-gray-200 mb-15">
             Boost your cafe's sales and customer experience with{" "}
             <span className="text-primary">AI-powered</span> insights! Our smart
             cafe management app helps you understand customer preferences,
@@ -42,12 +42,12 @@ export const BookDemo = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your mail"
-              className="flex-1 px-5 py-4 rounded-3xl border border-[#F9C06A6B] bg-[#FFF9F1] text-gray-900 placeholder-[#00000057] focus:outline-none focus:ring-1 focus:ring-primary"
+              className="flex-1 px-4 md:px-5 py-2 md:py-4 rounded-3xl border border-[#F9C06A6B] bg-[#FFF9F1] text-gray-900 placeholder-[#00000057] focus:outline-none focus:ring-1 focus:ring-primary"
               required
             />
             <button
               type="submit"
-              className="px-8 py-3 bg-[#F9C06A] text-[#1E1E1E] font-semibold rounded-3xl hover:bg-[#F9C06A]/80 transition-colors duration-200 cursor-pointer"
+              className="px-4 md:px-8 py-2 md:py-3 bg-[#F9C06A] text-[#1E1E1E] font-semibold rounded-3xl hover:bg-[#F9C06A]/80 transition-colors duration-200 cursor-pointer"
             >
               Book Demo
             </button>

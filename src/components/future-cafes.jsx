@@ -128,8 +128,9 @@ export const FutureCafes = () => {
                   muted
                   playsInline
                   loop
+                  webkit-playsinline
                   style={feature.style}
-                  className="absolute rounded-lg"
+                  className="absolute rounded-lg md:rounded-2xl"
                 >
                   <source src={feature.videoUrl} type="video/mp4" />
                 </video>
