@@ -34,6 +34,12 @@
   padding: 24px 54px 24px 24px;
 }
 
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 12px 24px;
+  }
+}
+
 .powered-by-gradient {
   background: var(
     --Animation-layer-2,

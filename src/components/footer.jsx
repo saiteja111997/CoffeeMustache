@@ -21,11 +21,11 @@ export const Footer = () => {
           {/* About Section */}
           <div className="md:col-span-2">
             <img src="/white-logo.svg" alt="" className="w-48" />
-            <p className="text-white mb-6 mt-12">
+            <p className="text-white mb-6 mt-6 md:mt-12">
               We empower cafes with AI-driven insights to boost sales, optimize
               customer experience, and streamline operations effortlessly.
             </p>
-            <div className="flex space-x-4 mt-20">
+            <div className="flex space-x-4 mt-12 md:mt-20">
               <a href="#" className="text-white hover:text-gray-300 text-2xl">
                 <FaFacebook />
               </a>
@@ -43,50 +43,60 @@ export const Footer = () => {
 
           {/* Quick Links Section */}
           <div className="md:col-span-1">
-            <h2 className="text-3xl font-semibold mt-3 mb-14">About</h2>
+            <h2 className="text-xl md:text-3xl font-semibold mt-3 mb-6 md:mb-14">
+              About
+            </h2>
             <ul className="space-y-3">
               <li>
-                <p className="text-xl text-white">Menu</p>
+                <p className="text-base md:text-xl text-white">Menu</p>
               </li>
               <li>
-                <p className="text-xl text-white">Features</p>
+                <p className="text-base md:text-xl text-white">Features</p>
               </li>
               <li>
-                <p className="text-xl text-white">News & Blogs</p>
+                <p className="text-base md:text-xl text-white">News & Blogs</p>
               </li>
               <li>
-                <p className="text-xl text-white">Help & Supports</p>
+                <p className="text-base md:text-xl text-white">
+                  Help & Supports
+                </p>
               </li>
             </ul>
           </div>
 
           {/* Company Section */}
           <div className="md:col-span-1">
-            <h2 className="text-3xl font-semibold mt-3 mb-14">Company</h2>
+            <h2 className="text-xl md:text-3xl font-semibold mt-3 mb-6 md:mb-14">
+              Company
+            </h2>
             <ul className="space-y-3">
               <li>
-                <p className="text-xl text-white">How we work</p>
+                <p className="text-base md:text-xl text-white">How we work</p>
               </li>
               <li>
-                <p className="text-xl text-white">Terms of service</p>
+                <p className="text-base md:text-xl text-white">
+                  Terms of service
+                </p>
               </li>
               <li>
-                <p className="text-xl text-white">Pricing</p>
+                <p className="text-base md:text-xl text-white">Pricing</p>
               </li>
               <li>
-                <p className="text-xl text-white">FAQ</p>
+                <p className="text-base md:text-xl text-white">FAQ</p>
               </li>
             </ul>
           </div>
 
           {/* Contact Section */}
           <div className="md:col-span-2">
-            <h2 className="text-3xl font-semibold mt-3 mb-14">Contact Us</h2>
-            <ul className="space-y-8">
+            <h2 className="text-xl md:text-3xl font-semibold mt-3 mb-6 md:mb-14">
+              Contact Us
+            </h2>
+            <ul className="space-y-3 md:space-y-8">
               <li>
                 <a
                   href="mailto:coffeemustache369@gmail.com"
-                  className="text-xl text-white"
+                  className="text-base md:text-xl text-white"
                 >
                   coffeemustache369@gmail.com
                 </a>
@@ -94,7 +104,7 @@ export const Footer = () => {
               <li>
                 <a
                   href="https://www.coffeemustache.in"
-                  className="text-xl text-white"
+                  className="text-base md:text-xl text-white"
                 >
                   www.coffeemustache.in
                 </a>
