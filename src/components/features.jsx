@@ -42,7 +42,7 @@ const features = [
 
 export const Features = () => {
   return (
-    <div className="text-white py-20 px-4 w-4/5 mx-auto">
+    <div className="text-white py-20 px-4 w-4/5 mx-auto" id="features">
       <div className="container mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16">
