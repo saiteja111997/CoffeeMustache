@@ -20,11 +20,13 @@ export const BookDemo = () => {
       }}
       id="contact"
     >
-      <div className="max-w-xl flex flex-col items-center mx-auto">
-        <h1 className="text-5xl font-bold text-white mb-8">Book Your Demo</h1>
+      <div className="max-w-2xl flex flex-col items-center mx-auto">
+        <h1 className="text-5xl font-semibold text-white mb-7 w-full">
+          Book Your Demo
+        </h1>
 
         <div>
-          <p className="text-lg text-gray-200 mb-15">
+          <p className="text-xl text-gray-200 mb-15">
             Boost your cafe's sales and customer experience with{" "}
             <span className="text-primary">AI-powered</span> insights! Our smart
             cafe management app helps you understand customer preferences,

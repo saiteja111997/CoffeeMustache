@@ -42,17 +42,31 @@ const features = [
 
 export const Features = () => {
   return (
-    <div className="text-white py-20 px-4 w-4/5 mx-auto" id="features">
-      <div className="container mx-auto">
+    <div
+      className="text-white pt-32 px-4 pb-48 mx-auto relative overflow-hidden"
+      id="features"
+    >
+      <img
+        src="/coffee-1.svg"
+        alt=""
+        className="absolute -left-14 md:-left-24 -top-24 z-10 w-64 opacity-90"
+      />
+      <img
+        src="/coffee-2.svg"
+        alt=""
+        className="absolute -right-16 -bottom-14 z-10 w-64 opacity-90"
+      />
+      <div className="container mx-auto px-6">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-[#B87F45]">The Future of Cafés,</span>{" "}
+          <h1 className="text-2xl md:text-5xl font-bold mb-6">
+            <span className="text-brown">The Future of Cafés,</span>{" "}
             <span className="powered-by-gradient">Powered by AI</span>
           </h1>
-          <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-            AI-driven solutions that maximise sales, optimize operations, and
-            enhance customer experiences all in one platform.
+          <p className="text-[#707070] text-lg max-w-3xl mx-auto">
+            <span className="text-primary">AI-driven</span> solutions that
+            maximise sales, optimize operations, and enhance customer
+            experiences all in one platform.
           </p>
         </div>
 
@@ -72,10 +86,10 @@ export const Features = () => {
                 alt={feature.title}
                 className="w-28 h-28"
               />
-              <h3 className="text-[#603809] mt-7  text-2xl font-semibold mb-3 text-center">
+              <h3 className="text-brown mt-7  text-xl md:text-2xl font-semibold mb-3 text-center">
                 {feature.title}
               </h3>
-              <p className="text-[#707070] text-lg max-w-[80%] text-center">
+              <p className="text-[#707070] text-base md:text-lg  md:max-w-[80%] text-center">
                 {feature.description}
               </p>
             </div>

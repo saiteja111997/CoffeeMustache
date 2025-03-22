@@ -14,7 +14,7 @@ function App() {
         <FutureCafes />
         <BookDemo />
         <div className="flex justify-center items-center pt-16 pb-12">
-          <img src="/logo.svg" alt="" className="w-96 h-full" />
+          <img src="/logo.svg" alt="" className="w-64 md:w-96 h-full" />
         </div>
       </div>
       <Footer />

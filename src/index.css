@@ -49,16 +49,12 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 54px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 
 .footer-container {
   background: url("/footer/background.png") lightgray 50% / cover no-repeat;
   background-blend-mode: overlay;
-  background-color: #3c2a21;
+  background-color: #442808;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
