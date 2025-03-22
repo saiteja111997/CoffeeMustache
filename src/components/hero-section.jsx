@@ -37,22 +37,25 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-64">
         <div className="text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-brown leading-15 mb-2">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-brown leading-15 mb-2">
             Supercharge Your Café with
           </h1>
           <p
-            className={`text-4xl sm:text-5xl md:text-6xl font-bold mb-8 leading-15`}
+            className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-8 leading-15`}
           >
             <span className={TITLES[titleIndex].className}>
               {TITLES[titleIndex].label}
             </span>
             <span>{TITLES[titleIndex].icon}</span>
           </p>
-          <p className="text-lg sm:text-xl text-black max-w-2xl mx-auto text-center mb-10 font-normal">
+          <p className="text-lg sm:text-xl text-black max-w-3xl mx-auto text-center mb-10 font-normal">
             For the first time ever, cafés run smarter, sell more, and create
             unforgettable experiences—like never before. We are revolutionizing
-            the café industry with AI-powered innovation, setting a new standard
-            for growth and efficiency.
+            the café industry with{" "}
+            <span className="hero-title-gradient font-semibold">
+              AI-powered
+            </span>{" "}
+            innovation, setting a new standard for growth and efficiency.
           </p>
           <div className="flex justify-center gap-4">
             <a

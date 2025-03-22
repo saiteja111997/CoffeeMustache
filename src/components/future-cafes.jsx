@@ -1,5 +1,4 @@
 import React from "react";
-import { PhonesShowcase } from "./features/phone-2";
 
 const features = [
   {

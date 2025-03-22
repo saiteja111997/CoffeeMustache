@@ -1,8 +1,10 @@
 @import "tailwindcss";
-
 @theme {
   --color-primary: #c67c4e;
   --color-brown: #603809;
+}
+* {
+  font-family: "Poppins";
 }
 
 .home-container {
