@@ -1,0 +1,77 @@
+:root {
+  --height-phone: 220px;
+  --width-phone: 140px;
+
+  --height-laptop: 580px;
+  --width-laptop: 280px;
+
+  --height-tablet: 400px;
+  --width-tablet: 200px;
+}
+
+.phone-1 {
+  width: calc(var(--width-laptop) * 0.6);
+  height: calc(var(--height-laptop) * 0.6);
+}
+.phone-2 {
+  width: calc(var(--width-laptop) * 0.8);
+  height: calc(var(--height-laptop) * 0.8);
+}
+.phone-3 {
+  width: calc(var(--width-laptop));
+  height: calc(var(--height-laptop));
+}
+.phone-4 {
+  width: calc(var(--width-laptop) * 0.8);
+  height: calc(var(--height-laptop) * 0.8);
+}
+.phone-5 {
+  width: calc(var(--width-laptop) * 0.6);
+  height: calc(var(--height-laptop) * 0.6);
+}
+
+@media (max-width: 1024px) {
+  .phone-1 {
+    width: calc(var(--width-tablet) * 0.6);
+    height: calc(var(--height-tablet) * 0.6);
+  }
+  .phone-2 {
+    width: calc(var(--width-tablet) * 0.8);
+    height: calc(var(--height-tablet) * 0.8);
+  }
+  .phone-3 {
+    width: calc(var(--width-tablet));
+    height: calc(var(--height-tablet));
+  }
+  .phone-4 {
+    width: calc(var(--width-tablet) * 0.8);
+    height: calc(var(--height-tablet) * 0.8);
+  }
+  .phone-5 {
+    width: calc(var(--width-tablet) * 0.6);
+    height: calc(var(--height-tablet) * 0.6);
+  }
+}
+
+@media (max-width: 640px) {
+  .phone-1 {
+    width: calc(var(--width-phone) * 0.6);
+    height: calc(var(--height-phone) * 0.6);
+  }
+  .phone-2 {
+    width: calc(var(--width-phone) * 0.8);
+    height: calc(var(--height-phone) * 0.8);
+  }
+  .phone-3 {
+    width: calc(var(--width-phone));
+    height: calc(var(--height-phone));
+  }
+  .phone-4 {
+    width: calc(var(--width-phone) * 0.8);
+    height: calc(var(--height-phone) * 0.8);
+  }
+  .phone-5 {
+    width: calc(var(--width-phone) * 0.6);
+    height: calc(var(--height-phone) * 0.6);
+  }
+}

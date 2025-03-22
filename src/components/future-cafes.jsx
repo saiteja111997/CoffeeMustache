@@ -64,10 +64,10 @@ export const FutureCafes = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-20">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            <span className="powered-by-gradient">The Future of Cafés,</span>
+          <h1 className="text-3xl md:text-5xl font-semibold mb-6">
+            <span className="powered-by-gradient">The Future of Cafés, </span>
             <br className="md:hidden" />
-            <span className="text-brown-800">Built for You</span>
+            <span className="text-brown">Built for You</span>
           </h1>
           <p className="text-gray-600 text-lg">
             Smarter cafés, higher profits, and seamless experiences—

@@ -59,7 +59,7 @@ export const Features = () => {
       <div className="container mx-auto px-2">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="text-2xl md:text-5xl font-bold mb-6">
+          <h1 className="text-2xl md:text-5xl font-semibold mb-6">
             <span className="text-brown">The Future of Cafés,</span>{" "}
             <span className="powered-by-gradient">Powered by AI</span>
           </h1>
