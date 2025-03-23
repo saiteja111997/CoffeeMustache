@@ -24,10 +24,6 @@ const HeroSection = () => {
   const [images, setImages] = useState([0, 1, 2, 3, 4]);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      setImages((prev) => prev.map((i) => (i + 1) % 5));
-    }, 2000);
-
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
@@ -38,12 +34,12 @@ const HeroSection = () => {
       });
     });
 
-    const intervalId2 = setInterval(() => {
+    const intervalId = setInterval(() => {
       setTitleIndex((prev) => (prev + 1) % TITLES.length);
+      setImages((prev) => prev.map((i) => (i + 1) % 5));
     }, 1000);
     return () => {
       clearInterval(intervalId);
-      clearInterval(intervalId2);
     };
   }, []);
 
